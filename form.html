@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
+
 <body>
     <hr size="2" noshade>
     <center>
@@ -19,22 +21,113 @@
             <input type="text" placeholder="Full Name" required><br>
             <label>Date of Birth</label>
             <input type="date" placeholder="mm/dd/yyyy" required><br>
-            
+
             <label for="email">Email: </label>
             <input type="email" placeholder="EMAIL" required /><br>
             <label> Password: </label>
             <input type="password" name="password" ><br>
+            <input type="password" name="password"><br>
 
             <label>Why do you wanna be part of PS Store</label><br>
-            <textarea name="name" rows="10" cols="25" ></textarea>
-            
+            <textarea name="name" rows="10" cols="25"></textarea>
 
-            <br><input type="checkbox"required><label for="">  I have read all the condition </label><br>
+
+            <br><input type="checkbox" required><label for=""> I have read all the condition </label><br>
             <input type="submit" value="submit">
         </form>
     </center>
+    <hr>
 
-    
-    
+    <form action="mailto:prashantshrestha027@gmail.com" method="post" enctype="text/plain">
+        <table cellspacing="20px">
+            <hr size="3px" noshade="">
+            <tr>
+                <h4>Personal Details:</h4><br>
+                <hr>
+                <td>
+                    <label>First Name: </label>
+                    <input type="text" placeholder="FirstName" required>
+                </td>
+                <td>
+                    <label>Middle Name: </label>
+                    <input type="text" placeholder="MiddleName">
+                </td>
+                <td>
+                    <label>Last Name: </label>
+                    <input type="text" placeholder="LastName" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Date of birth: </label>
+                    <input type="date" required>
+                </td>
+                <td>
+                    <label for="Gender">Gender: </label>
+                    <select>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>Email: </label>
+                    <input type="email" required>
+                </td>
+                <td>
+                    <label>Phone No.: </label>
+                    <input type="tel" placeholder="9800000000" required>
+                </td>
+            </tr>
+            <hr>
+            <h4>Address</h4>
+            <hr>
+            <tr>
+                <td>
+                    <label>Address Line1</label>
+                    <input type="text" placeholder="Address" required>
+
+                </td>
+                <td>
+                    <lable>Address Line2</lable>
+                    <input type="text" placeholder="Address">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>City / District</label>
+                    <input type="text" required>
+                </td>
+                <td>
+                    <label>State / Province</label>
+                    <input type="text" required>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>Postal Code</label>
+                    <input type="number">
+                </td>
+                <td>
+                    <label>Tole</label>
+                    <input type="text">
+                </td>
+            </tr>
+            <br>
+            <input type="checkbox" required><label for=""> I have read all the condition </label>
+            <br>
+            <input type="submit" value="submit">
+        </table>
+    </form>
+
+
+
 </body>
+
 </html>
