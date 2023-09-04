@@ -22,5 +22,14 @@ img {
     width: 100px;
     height: 20%;
     border-radius: 100%;
-
+}
+h1{
+    font-family: cursive;
+    color: #66BFBF;
+}
+h3{
+    color: whitesmoke;
+}
+p{
+    font-family: ;
 }
