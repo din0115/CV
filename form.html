@@ -5,18 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <hr size="2" noshade>
+    <hr>
     <center>
-        <h1> PS Store</h1>
-        <p>Tangal-2, Kathmandu</p>
-        <p>For the membership</p>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <img src="/img/my_pic.jpeg" alt="My pic"><br> Prashant Shestha
+                </td>
+                <td>
+                    <h1> PS Store</h1>
+                    <p>Tangal-2, Kathmandu</p>
+                    <p>For the membership</p>
+                </td>
+            </tr>
+        </table>
     </center>
-    <hr size="2" noshade><br>
+    <hr><br>
     <center>
-        <form action="mailto:prashantshrestha0115@gmail.com" method="post" enctype="text/plain">
+        <form action="mailto:prashantshrestha027@gmail.com" method="post" enctype="text/plain">
             <label>Full Name: </label>
             <input type="text" placeholder="Full Name" required><br>
             <label>Date of Birth</label>
@@ -37,7 +48,7 @@
     </center>
     <hr>
 
-    <form action="mailto:prashantshrestha027@gmail.com" method="post" enctype="text/plain">
+    <form action="./index.html" method="post" enctype="text/plain">
         <table cellspacing="20px">
             <hr size="3px" noshade="">
             <tr>
@@ -119,9 +130,14 @@
                 </td>
             </tr>
             <br>
-            <input type="checkbox" required><label for=""> I have read all the condition </label>
-            <br>
-            <input type="submit" value="submit">
+            <center>
+                <tr>
+                    <td><input type="checkbox" required><label for=""> I have read all the condition </label>
+                        <br>
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+            </center>
         </table>
     </form>
 
