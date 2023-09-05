@@ -7,29 +7,58 @@ body {
 }
 
 hr {
-    border-style: dotted none none;
-    border-radius: 20%;
-    border-color: antiquewhite;
-    border-right: 10%;
-    size: 3px;
     background-color: rgb(137, 192, 19);
+    border-color: antiquewhite;
+    border-radius: 20%;
+    border-right: 10%;
+    border-style: dotted none none;
+    size: 3px;
     height: 1px;
     width: 60%;
 
 }
 
 img {
+    border-radius: 100%;
+    cursor: pointer;
     width: 100px;
     height: 20%;
-    border-radius: 100%;
 }
-h1{
+
+
+h1 {
     font-family: cursive;
     color: #1e4141;
 }
-h3{
+
+h3 {
     color: whitesmoke;
 }
-p{
-    font-family: ;
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info {
+    border-style: dotted none none;
+
+}
+
+#line {
+    background-color: none;
+    border-color: black;
+    size: 3px;
+    width: auto;
+
+}
+
+.submit {
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rebeccapurple;
+    color: aliceblue;
+    position: relative;
+    display: flex;
 }
