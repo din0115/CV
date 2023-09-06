@@ -35,8 +35,8 @@ h3 {
     color: whitesmoke;
 }
 
-p {
-    font-family: 'Times New Roman', Times, serif;
+table{
+    border: 1px solid black;
 }
 
 .info {
